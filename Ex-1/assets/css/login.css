@@ -10,7 +10,7 @@
     text-align: center;
 }
 
-.card button {
+.card input[type="submit"] {
     background-color: #0973AD;
     color: #fff;
     border: none;
@@ -19,6 +19,7 @@
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
+    margin-bottom: 10px;
 }
 
 .card button:hover {
