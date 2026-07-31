@@ -44,6 +44,14 @@ nav {
     color: #F49D36;
 }
 
+.navbar-toggler-icon {
+    background-image: url('../images/menu-icon.svg') !important;
+}
+
+button.navbar-toggler {
+    border: 1px solid #ffff !important;
+}
+
 .home_heading {
-   border-bottom: 1px solid #D0CFCF;
+    border-bottom: 1px solid #D0CFCF;
 }
