@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Function to validate quantity
     function validateQuantity() {
         const quantity = parseInt(quantityInput.value);
-        if (isNaN(quantity) || quantity < 1) {
+        if (isNaN(quantity) || quantity < 1) {  //is a JavaScript function used to check whether the value of quantity is Not a Number (NaN).
             alert("Please enter a valid quantity (greater than 0).");
             quantityInput.focus();
             return false;
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
     addToCartButton.addEventListener('click', function () {
         if (validateQuantity()) {
             alert("Item added to cart successfully!");
-            // Here you can add code to actually add the item to the cart
+            
         }
     });
     // Event listener for Checkout button
