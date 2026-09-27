@@ -1,5 +1,6 @@
 // Replace with your OpenWeatherMap API key
 const apiKey = "d2db27d78dbc261f005fe6fae43008ab";
+// const apiKey = "  YOUR API KEY ";
 async function getWeather() {
     const city = document.getElementById("cityInput").value;
     const weatherResult = document.getElementById("weatherResult");
@@ -10,6 +11,8 @@ async function getWeather() {
     try {
         const response = await fetch(
             `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
+            // This is JavaScript's way of handling errors gracefully instead of letting your program crash.
+            // try block: JavaScript runs the code inside here normally. If everything works, catch is skipped entirely.
         );
         const data = await response.json();
         if (data.cod === 200) {

@@ -1,0 +1,78 @@
+
+section h1 {
+    color: #000;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+section h1 span {
+    color: #DC1111;
+}
+
+section input {
+    border-radius: 8px 0 0 8px;
+    background: rgba(255, 255, 255, 0.70);
+    color: #666;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: none;
+}
+.search_container button {
+    border-radius: 0 9px 9px 0 !important; 
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+section {
+    background-color: #F49D36;
+    padding: 20px;
+}
+
+.section {
+    padding: 120px 20px !important;
+}
+
+nav {
+    background: #0973AD;
+    box-shadow: 0 0 27px 0 rgba(0, 0, 0, 0.25);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-link.active {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #F49D36;
+}
+
+.navbar-toggler-icon {
+    background-image: url('../src/assets/menu-icon.svg') !important;
+}
+
+button.navbar-toggler {
+    border: 1px solid #ffff !important;
+}
+ 
+.btn-primary {
+    background-color: #0973AD;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.home_heading {
+    border-bottom: 1px solid #D0CFCF;
+}
